@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 
  * @author Administrator
- *
+ *  实现了applicationContextAware接口的bean，在加载bean的时候会调用setApplicationContext方法
  */
 public class StudentAddBean implements ApplicationContextAware {
     /**
